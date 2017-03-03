@@ -12,3 +12,7 @@
 #ifdef STM32L476xx
   #include "stm32l4xx_hal.h"
 #endif
+
+#ifdef STM32F103xB
+  #include "stm32f1xx_hal.h"
+#endif
